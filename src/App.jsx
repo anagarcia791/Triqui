@@ -1,6 +1,6 @@
-import "./App.css";
+import "./styles/App.css";
 import { useState } from "react";
-import { TURNS } from "./constants";
+import { TURNS } from "./utils/constants";
 import { checkWinnerFrom, checkEndGame } from "./utils/establishWinner";
 
 import { Board } from "./components/Board";
